@@ -9,7 +9,7 @@ var button = ' text-gray-700 px-6 py-3 md:py-1 md:px-4 bg-green-200 border-4 bor
 var linkActive = link + ' bg-gray-200 md:bg-gray-100 text-gray-900 hover:bg-gray-200 '
 var buttonActive = button + ' bg-green-300 text-gray-900 '
 var primaryNav = ' fixed md:static w-4/6 md:block md:w-auto text-2xl md:text-base py-40 md:py-0 inset-y-0 right-0 backdrop-blur-md md:sbackdrop-blur-none shadow-xl md:shadow-none transform transition duration-300 ease-in-out md:transition-none'
-var hamburger = ' block absolute h-0.5 w-4 bg-gray-600 transform transition duration-200 ease-in-out '
+var hamburger = ' block absolute rounded-lg h-0.5 w-4 bg-gray-500 transform transition duration-200 ease-in-out '
 
 const links = {
     home : "/",
