@@ -30,19 +30,19 @@ export default function Navbar() {
             </button>
             <div className={isActive ? primaryNav : primaryNav + " translate-x-full md:translate-x-0 md:transition-none"}>
                 <ul className="flex flex-col justify-around items-center h-full md:h-auto md:flex-row md:space-y-0 py-1.5">
-                    <li>
+                    <li onClick={Toggle}>
                         <Link className={link} href="/">Home</Link>
                     </li>
-                    <li>
+                    <li onClick={Toggle}>
                         <Link className={link} href="/about">About</Link>
                     </li>
-                    <li>
+                    <li onClick={Toggle}>
                         <Link className={link} href="/programs">Programs</Link>
                     </li>
-                    <li>
+                    <li onClick={Toggle}>
                         <Link className={link} href="/blog">Blog</Link>
                     </li>
-                    <li>
+                    <li onClick={Toggle}>
                         <Link className={link + 'text-gray-800 bg-green-200 hover:bg-green-300'} href="/registration">Register</Link>
                     </li>
                 </ul>
