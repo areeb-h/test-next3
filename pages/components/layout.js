@@ -1,6 +1,6 @@
 // components/layout.js
 
-import Navbar from './Navbar'
+import Navbar from './Navbar.tsx'
 
 export default function Layout({ children  }) {
   return (
