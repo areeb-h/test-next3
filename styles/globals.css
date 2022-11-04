@@ -13,3 +13,7 @@
 .nav-bar {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+body {
+  background-color: rgba(244, 244, 244, 0.695)
+}
