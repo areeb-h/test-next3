@@ -30,7 +30,7 @@ export default function Navbar() {
                 </div>
             </button>
             <div className={isActive ? primaryNav : primaryNav + " translate-x-full md:translate-x-0 md:transition-none"}>
-                <ul className="flex flex-col py-44 md:py-0 justify-around items-center h-full md:h-auto md:flex-row md:space-y-0 py-1.5">
+                <ul className="flex flex-col py-40 md:py-0 justify-around items-center h-full md:h-auto md:flex-row md:space-y-0 py-1.5">
                     <li>
                         <Link className={link} href="/">Home</Link>
                     </li>
