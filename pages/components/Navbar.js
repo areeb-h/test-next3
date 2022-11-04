@@ -4,8 +4,8 @@ import Image from 'next/image'
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 
-var link = ' px-6 py-4 md:px-4 md:py-2 mt-2 text-lg md:text-base text-gray-500 rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 hover:bg-gray-100 md:hover:bg-gray-50 focus:bg-gray-200 md:focus:bg-gray-100 transform transition duration-200 ease-in-out '
-var button = ' text-gray-700 md:py-1 bg-green-200 border-4 border-transparent px-6 py-4 md:px-4 md:py-2 mt-2 text-lg md:text-base text-gray-500 rounded-lg md:mt-0 md:ml-4 hover:border-green-200 hover:text-gray-900 hover:bg-white transform transition duration-200 ease-in-out '
+var link = ' px-6 py-4 px-4 md:py-2 text-lg md:text-base text-gray-500 rounded-lg md:m-0 md:ml-4 hover:text-gray-900 hover:bg-gray-100 md:hover:bg-gray-50 focus:bg-gray-200 md:focus:bg-gray-100 transform transition duration-200 ease-in-out '
+var button = ' text-gray-700 px-6 py-3 md:py-1 md:px-4 bg-green-200 border-4 border-transparent mt-2 text-lg md:text-base text-gray-500 rounded-lg md:ml-4 hover:border-green-200 hover:text-gray-900 hover:bg-white transform transition duration-200 ease-in-out '
 var linkActive = link + ' bg-gray-200 md:bg-gray-100 text-gray-900 hover:bg-gray-200 '
 var buttonActive = button + ' bg-green-300 text-gray-900 '
 var primaryNav = ' fixed md:static w-4/6 md:block md:w-auto text-2xl md:text-base py-40 md:py-0 inset-y-0 right-0 backdrop-blur-md md:sbackdrop-blur-none shadow-xl md:shadow-none transform transition duration-300 ease-in-out md:transition-none'
