@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 
 var link = ' px-6 py-4 md:px-4 md:py-2 mt-2 text-lg md:text-base text-gray-500 font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline '
-var primaryNav = ' fixed md:static w-4/6 md:block md:w-auto text-2xl md:text-base inset-y-0 right-0 backdrop-blur-md md:sbackdrop-blur-none shadow-xl md:shadow-none md:pt-0 transform transition duration-300 ease-in-out md:transition-none'
+var primaryNav = ' fixed md:static w-4/6 md:block md:w-auto text-2xl md:text-base inset-y-0 right-0 backdrop-blur-md md:sbackdrop-blur-none shadow-xl md:shadow-none transform transition duration-300 ease-in-out md:transition-none'
 var hamburger = ' block absolute h-0.5 w-4 bg-gray-600 transform transition duration-200 ease-in-out '
 
 export default function Navbar() {
