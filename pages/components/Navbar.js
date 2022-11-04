@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 var link = ' px-4 py-2 mt-2 text-sm text-gray-500 font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline '
 //var mobileNav = ' absolute text-2xl md:text-base md:static inset-y-0 right-0 backdrop-blur-md shadow-xl md:shadow-none pt-20 md:pt-0 px-10 md:px-0 md:pt-0 md:bg-white '
-var mobileNav = ' fixed w-4/6 md:block md:w-auto md:static text-2xl md:text-base inset-y-0 right-0 backdrop-blur-md shadow-xl md:shadow-none pt-20 md:pt-0 px-10 md:px-0 transform transition duration-300 ease-in-out '
+var primaryNav = ' fixed w-4/6 md:block md:w-auto md:static text-2xl md:text-base inset-y-0 right-0 backdrop-blur-md shadow-xl md:shadow-none pt-20 md:pt-0 px-10 md:px-0 transform transition duration-300 ease-in-out '
 var hamburger = ' block absolute h-0.5 w-4 bg-gray-600 transform transition duration-200 ease-in-out '
 
 export default function Navbar() {
@@ -29,7 +29,7 @@ export default function Navbar() {
                     <span aria-hidden="true" className={isActive ? '-rotate-45' + hamburger : ' translate-y-1.5' + hamburger}></span>
                 </div>
             </button>
-            <div className={isActive ? mobileNav : mobileNav + " translate-x-full transform transition duration-300 ease-in-out md:translate-x-0 "}>
+            <div className={isActive ? primaryNav : primaryNav + " translate-x-full transform transition duration-300 ease-in-out md:translate-x-0 "}>
                 <ul className="flex flex-col space-y-10 items-center h-full md:h-auto md:flex-row md:space-y-0 py-1.5">
                     <li>
                         <Link className={link} href="/">Home</Link>
