@@ -1,6 +1,6 @@
 // components/layout.js
 
-import Navbar from './navbar'
+import Navbar from './Navbar'
 
 export default function Layout({ children  }) {
   return (
