@@ -5,9 +5,9 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 
 var link = ' px-6 py-4 md:px-4 md:py-2 text-lg md:text-base text-gray-500 rounded-lg md:m-0 md:ml-4 hover:text-gray-900 hover:bg-gray-100 md:hover:bg-gray-50 focus:bg-gray-200 md:focus:bg-gray-100 transform transition duration-200 ease-in-out '
-var button = ' text-gray-700 px-6 py-3 md:py-1 md:px-4 bg-green-200 border-4 border-transparent mt-2 text-lg md:text-base text-gray-500 rounded-lg md:ml-4 hover:border-green-200 hover:text-gray-900 hover:bg-white transform transition duration-200 ease-in-out '
+var button = ' text-white px-6 py-3 md:py-2 md:px-4 bg-green-500 border-transparent mt-2 text-lg md:text-base rounded-lg md:ml-4 hover:bg-gray-600 transform transition duration-200 ease-in-out '
 var linkActive = link + ' bg-gray-200 md:bg-gray-100 text-gray-900 hover:bg-gray-200 '
-var buttonActive = button + ' bg-green-300 text-gray-900 '
+var buttonActive = button + ' bg-gray-700 hover:bg-gray-700'
 var primaryNav = ' fixed md:static w-4/6 md:block md:w-auto text-2xl md:text-base py-40 md:py-0 inset-y-0 right-0 backdrop-blur-md md:sbackdrop-blur-none shadow-xl md:shadow-none transform transition duration-300 ease-in-out md:transition-none'
 var hamburger = ' block absolute rounded-lg h-0.5 w-4 bg-gray-500 transform transition duration-200 ease-in-out '
 
@@ -32,7 +32,7 @@ export default function Navbar() {
         <nav className='shadow-sm py-4 px-5 flex justify-between mb-5 bg-white items-center'>
             <div className='flex'>
                 <Image className='w-20 object-contain mr-3' src={logo} alt='user profile picture'/>
-                <Link className='hidden text-base lg:block bg-gray-50 p-0.5 px-2 rounded-md hover:bg-green-50 hover:cursor-pointer hover:text-green-800' href="/">Hulhumale&apos; Academic Center</Link>
+                <Link className='hidden text-base lg:block bg-gray-50 p-0.5 px-2 rounded-md hover:bg-green-50 hover:cursor-pointer hover:text-green-800 transition duration-200 ease-in-out' href="/">Hulhumale&apos; Academic Center</Link>
             </div>
             <button onClick={Toggle} className="z-50 text-gray-500 rounded-lg w-9 h-9 fixed md:hidden focus:outline-none bg-gray-100 right-4">
                 <span className="sr-only">Open main menu</span>
