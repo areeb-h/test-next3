@@ -34,9 +34,6 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className=" bg-white-50 grid justify-center p-5 ">
-                <h1 className='py-1 px-2 bg-white shadow-sm rounded-lg text-gray-500'>© Hulhumale&apos; Academic Centre 2022</h1>
-            </div>
         </div>
     )
 }
