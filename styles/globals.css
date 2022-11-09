@@ -15,6 +15,10 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.myDiv {
+  box-shadow: 10px 0 5px -2px rgb(244, 244, 244);
+}
+
 body {
   background-color: rgba(244, 244, 244, 0.695)
 }
