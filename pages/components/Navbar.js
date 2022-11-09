@@ -4,11 +4,10 @@ import Image from 'next/image'
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 
-var link = ' px-6 py-4 md:px-4 md:py-2 text-lg md:text-base text-gray-500 rounded-lg md:m-0 md:ml-4 hover:text-gray-900 md:hover:bg-gray-50 focus:bg-gray-200 md:focus:bg-gray-100 hover:border-4 hover:border-white transform transition duration-200 ease-in-out '
-//var button = ' text-white px-6 py-3 md:py-2 md:px-4 bg-green-500 border-transparent mt-2 text-lg md:text-base rounded-lg md:ml-4 hover:bg-gray-600 transform transition duration-200 ease-in-out '
-var button = ' text-teal-600 px-6 py-3 md:py-2 md:px-4 border-2 border-dashed border-green-400 mt-2 text-lg md:text-base rounded-lg md:ml-4 hover:bg-gray-600 hover:text-white transform transition duration-100 ease-in-out '
+var link = ' px-6 py-4 md:px-4 md:py-2 text-lg md:text-base text-gray-500 rounded-lg md:m-0 md:ml-4 hover:text-gray-900 md:hover:bg-gray-50 focus:bg-gray-200 md:focus:bg-gray-100 hover:border-4 hover:border-white md:border-none transform transition duration-200 ease-in-out '
+var button = ' text-teal-600 px-6 py-3 md:py-2 md:px-4 border-2 border-dashed border-teal-600 mt-2 text-lg md:text-base rounded-lg md:ml-4 hover:bg-gray-600 hover:text-white transform transition duration-100 ease-in-out '
 var linkActive = link + 'bg-white md:bg-gray-100 text-gray-900 hover:border-gray-200 '
-var buttonActive = button + ' bg-gray-700 hover:bg-gray-700'
+var buttonActive = ' px-6 py-3 md:py-2 md:px-4 border-2 border-dashed border-teal-600 mt-2 text-lg md:text-base rounded-lg md:ml-4 hover:bg-gray-600 hover:text-white  text-white focus:text-white bg-gray-700 hover:bg-gray-700'
 var primaryNav = ' fixed md:static w-4/6 md:block md:w-auto text-2xl md:text-base py-40 md:py-0 inset-y-0 right-0 backdrop-blur-3xl	 md:backdrop-blur-none shadow-xl md:shadow-none transform transition duration-300 ease-in-out md:transition-none'
 var hamburger = ' block absolute rounded-lg h-0.5 w-4 bg-gray-500 transform transition duration-200 ease-in-out '
 
