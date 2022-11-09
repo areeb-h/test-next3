@@ -13,9 +13,9 @@ export default function Footer() {
         <div className=' static bottom-0'>
             <div className='shadow-sm border-b-4 border-gray-200 flex-rows items-center justify-center md:flex md:justify-start bg-white static bottom-0 '>
                 <div className=' md:w-2/6 py-4 px-5 md:mr-2 block text-center md:text-start'>
-                    <h1 className="text-lg font-bold">Hulhumale' Academic Center</h1>
+                    <h1 className="text-lg font-bold">Hulhumale&apos; Academic Center</h1>
                     <p>Hithigas Magu, Goalhi #3</p>
-                    <p>Hulhumale’, Male’ 23000</p>
+                    <p>Hulhumale&apos;, Male&apos; 23000</p>
                 </div>
                 <div className="md:w-3/6 flex-rows">
                     <div className=' grid justify-center md:justify-start '> 
@@ -35,7 +35,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className=" bg-white-50 grid justify-center p-5 ">
-                <h1 className='py-1 px-2 bg-white shadow-sm rounded-lg text-gray-500'>© Hulhumale’ Academic Centre 2022</h1>
+                <h1 className='py-1 px-2 bg-white shadow-sm rounded-lg text-gray-500'>© Hulhumale&apos; Academic Centre 2022</h1>
             </div>
         </div>
     )
