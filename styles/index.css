@@ -19,3 +19,8 @@
         background-position: -200px 0px; 
     }
 }
+
+.rounded-t-4xl {
+    border-top-left-radius: 2.8rem; /* 24px */
+    border-top-right-radius: 2.8rem; /* 24px */
+}
