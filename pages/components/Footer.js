@@ -11,7 +11,7 @@ var buttonStyle = 'p-2 bg-gray-600 hover:bg-gray-800 hover:cursor-pointer rounde
 export default function Footer() {
     return (
         <div className=' static bottom-0'>
-            <div className='shadow-sm border-b-4 border-gray-200 flex-rows items-center justify-center md:flex md:justify-start bg-white static bottom-0 '>
+            <div className=' border-b-4 border-gray-200 flex-rows items-center justify-center md:flex md:justify-start bg-white static bottom-0 '>
                 <div className=' md:w-2/6 py-4 px-5 md:mr-2 block text-center md:text-start'>
                     <h1 className="text-lg font-bold">Hulhumale&apos; Academic Center</h1>
                     <p>Hithigas Magu, Goalhi #3</p>
