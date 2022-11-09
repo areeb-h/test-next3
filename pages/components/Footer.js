@@ -27,7 +27,7 @@ export default function Footer() {
                     </div>                         
                 </div>
                 <div className=' md:w-2/6 flex justify-center md:justify-end md:items-end '>
-                    <div className=' flex justify-center items-center mt-5 md:mt-0 p-5 rounded-t-3xl border-x-4 md:border-r-0 md:ml-5 md:p-3 md:rounded-l-full gap gap-x-6 bg-gray-50 border-t-4 border-l-4 md:border-b-4 border-dashed border-gray-200 '>
+                    <div className=' flex justify-center items-center mt-5 md:mt-0 p-5 rounded-t-3xl border-x-4 md:border-r-0 md:ml-5 md:p-3 md:pr-5 md:rounded-l-full gap-x-6 bg-gray-50 border-t-4 border-l-4 md:border-b-4 border-dashed border-gray-200 '>
                         <a className={buttonStyle}><Image width={30} src={facebook} alt='user profile picture'/></a>
                         <a className={buttonStyle}><Image width={30} src={instagram} alt='user profile picture'/></a>
                         <a className={buttonStyle}><Image width={30} src={twitter} alt='user profile picture'/></a>
