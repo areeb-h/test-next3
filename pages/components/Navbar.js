@@ -31,12 +31,12 @@ export default function Navbar() {
     const router = useRouter();
 
     return (
-        <nav className='shadow-sm flex px-5 py-5 justify-between mb-5 bg-white items-center'>
+        <nav className='shadow-sm flex px-5 py-5 h-nav justify-between mb-5 bg-white items-center'>
             <Link href="/" className='flex pr-5 '>
-                <Image className='w-20 object-contain ' src={logo} alt='user profile picture'/>
+                <Image className='w-logo object-contain ' src={logo} alt='user profile picture'/>
                 <h1 className='hidden lg:block ml-6 text-lg text-gray-700 uppercase hover:cursor-pointer transition duration-200 ease-in-out' href="/">Hulhumale&apos; Academic Center</h1>
             </Link>
-            <button onClick={Toggle} className="z-50 text-gray-500 rounded-lg w-9 h-9 fixed md:hidden bg focus:outline-none bg-white border-2 right-4">
+            <button onClick={Toggle} className="z-50 text-gray-500 rounded-lg h-w-hamburger fixed md:hidden bg focus:outline-none bg-white border-2 right-5 top-5">
                 <span className="sr-only">Open main menu</span>
                 <div className="flex justify-center items-center w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <span aria-hidden="true" className={isActive ? 'rotate-45' + hamburger : ' -translate-y-1.5' + hamburger}></span>

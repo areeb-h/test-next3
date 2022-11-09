@@ -20,6 +20,19 @@
     }
 }
 
+.h-nav{
+ height: 4.7rem;
+}
+
+.w-logo{
+    width: 5.5rem;
+}
+
+.h-w-hamburger {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
 @media only screen and (max-width: 767px) {
     .rounded-t-4xl {
         border-top-left-radius: 2.5rem; /* 24px */
