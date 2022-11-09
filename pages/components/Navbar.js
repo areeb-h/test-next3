@@ -4,9 +4,9 @@ import Image from 'next/image'
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 
-var link = ' px-6 py-4 md:px-4 md:py-2 text-lg md:text-base text-gray-500 rounded-lg md:m-0 md:ml-4 hover:text-gray-900 md:hover:bg-gray-50 md:focus:bg-gray-100 border-4 border-transparent hover:border-white md:border-none transform transition duration-200 ease-in-out '
+var link = ' px-6 py-4 md:px-4 md:py-2 text-lg md:text-base text-gray-500 rounded-lg md:m-0 md:ml-4 hover:text-gray-900 md:hover:bg-gray-50 md:focus:bg-gray-100 border-2 border-transparent hover:border-white md:border-none transform transition duration-200 ease-in-out '
 var button = ' text-teal-600 px-6 py-3 md:py-2 md:px-4 border-2 border-dashed border-teal-600 mt-2 text-lg md:text-base rounded-lg md:ml-4 md:hover:bg-gray-600 hover:text-white transform transition duration-100 ease-in-out '
-var linkActive = link + ' md:bg-gray-100 text-gray-900 border-gray-400 hover:border-gray-400 '
+var linkActive = link + ' md:bg-gray-100 text-gray-900 border-gray-500 hover:border-gray-500 '
 var buttonActive = ' px-6 py-3 md:py-2 md:px-4 border-2 border-dashed border-teal-600 mt-2 text-lg md:text-base rounded-lg md:ml-4 hover:bg-gray-600 hover:text-white text-white focus:text-white bg-gray-700 hover:bg-gray-700'
 var primaryNav = ' fixed md:static w-4/6 md:block md:w-auto text-2xl md:text-base py-40 md:py-0 inset-y-0 right-0 bg-blur z-40 shadow-xl md:shadow-none transform transition duration-300 ease-in-out md:transition-none'
 var hamburger = ' block absolute rounded-lg h-0.5 w-4 bg-gray-500 transform transition duration-200 ease-in-out '
