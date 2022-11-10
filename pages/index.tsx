@@ -22,10 +22,10 @@ export default function Home() {
         </div>
         <div className=' flex justify-center'>
           <Link href='/register' className={contactLinkStyle + " flex justify-center items-center "}>
-            <div className='px-5 py-3 '>
+            <div className='pl-5 py-3 '>
               Get Started
             </div>
-            <div className="bg-teal-600 px-2 py-2 mr-2 rounded-xl text-xl">
+            <div className="bg-teal-600 px-2 py-0.5 mx-3 rounded-xl text-xl">
               ➜
             </div>
           </Link>
