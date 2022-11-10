@@ -4,15 +4,15 @@ var contactLinkStyle = ' bg-teal-700 text-2xl text-white rounded-2xl hover:bg-te
 
 export default function Home() {
   return <div className=" block max-w-5xl mx-auto">
-    <div className=" flex-columns items-center justify-center md:flex space-y-5 md:space-y-0 gap-y-5 md:gap-x-5	">
-      <div className=" md:flex-grow md:w-8/12 tracking-wide bg-green-100 border-4 border-green-200 p-5 rounded-xl">
-        <p className=" leading-relaxed text-xl text-gray-800">
+    <div className=" bg-white rounded-2xl shadow-xl border-gray-300 flex-columns items-center justify-center md:flex space-y-5 md:space-y-0 md:mt-20 mb-20">
+      <div className=" md:flex-grow md:w-8/12 tracking-wide p-5 md:py-10 md:px-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-t-2xl md:rounded-l-2xl md:rounded-r-none ">
+        <p className=" leading-relaxed text-xl text-white text-shadow-lg">
           <span className=" font-semibold ">HAC</span> is the first private education institution established in Hulhumale’. We place a heavy focus on teaching excellence and providing a place where your children can feel at home while learning the skills that will help them thrive long after their school years are over. 
           As a parent, what more can you ask for?
         </p>
       </div>
-      <div className=" flex-rows items-center justify-center md:w-5/12 ">
-        <div className=' flex-columns justify-center mb-5'>
+      <div className=" flex-rows items-center justify-center md:w-5/12 pb-8 md:px-10 md:pb-0 ">
+        <div className=' flex-columns justify-center mb-5 '>
           <div className=' flex justify-center'>
             <p className=" leading-relaxed text-3xl text-center text-gray-800 "> Registrations Open for </p>
           </div>
