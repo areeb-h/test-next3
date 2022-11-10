@@ -8,7 +8,7 @@ var link = ' px-6 py-3 md:px-4 md:py-2 text-lg md:text-base text-gray-500 rounde
 var button = ' text-teal-600 px-6 py-3 md:py-2 md:px-4 border-2 border-dashed border-teal-600 mt-2 text-lg md:text-base rounded-lg md:ml-4 hover:bg-gray-600 hover:border-transparent md:hover:bg-gray-600 hover:text-white transform transition duration-100 ease-in-out '
 var linkActive = link + ' md:bg-gray-100 text-gray-900 border-gray-500 hover:border-gray-500 '
 var buttonActive = ' px-6 py-3 md:py-2 md:px-4 border-2 mt-2 text-lg border-transparent md:text-base rounded-lg md:ml-4 hover:bg-gray-600 hover:text-white text-white focus:text-white bg-gray-700 hover:bg-gray-700'
-var primaryNav = ' fixed md:static w-4/6 md:block md:w-auto text-2xl md:text-base py-40 md:py-0 inset-y-0 right-0 bg-blur z-40 shadow-xl md:shadow-none transform transition duration-300 ease-in-out md:transition-none'
+var primaryNav = ' fixed md:static w-4/6 md:block md:w-auto text-2xl md:text-base py-40 md:py-0 inset-y-0 right-0 bg-blur z-20 shadow-xl md:shadow-none transform transition duration-300 ease-in-out md:transition-none'
 var hamburger = ' block absolute rounded-lg h-0.5 w-4 bg-gray-500 transform transition duration-200 ease-in-out '
 
 //backdrop-blur-3xl	 md:backdrop-blur-none
@@ -36,9 +36,9 @@ export default function Navbar() {
                 <Image className='w-logo object-contain ' src={logo} alt='user profile picture'/>
                 <h1 className='hidden lg:block ml-6 text-lg text-gray-700 uppercase hover:cursor-pointer transition duration-200 ease-in-out' href="/">Hulhumale&apos; Academic Center</h1>
             </Link>
-            <button onClick={Toggle} className="z-50 text-gray-500 rounded-lg h-w-hamburger fixed md:hidden bg focus:outline-none bg-white border-2 right-5 top-5">
+            <button onClick={Toggle} className="z-40 text-gray-500 rounded-lg h-w-hamburger absolute md:hidden bg focus:outline-none bg-white border-2 right-5 top-5">
                 <span className="sr-only">Open main menu</span>
-                <div className="flex justify-center items-center w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="  flex justify-center items-center w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <span aria-hidden="true" className={isActive ? 'rotate-45' + hamburger : ' -translate-y-1.5' + hamburger}></span>
                     <span aria-hidden="true" className={isActive ? 'opacity-0' + hamburger : hamburger}></span>
                     <span aria-hidden="true" className={isActive ? '-rotate-45' + hamburger : ' translate-y-1.5' + hamburger}></span>
