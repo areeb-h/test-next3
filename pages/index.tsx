@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-var contactLinkStyle = ' bg-teal-700 text-2xl text-white rounded-2xl hover:bg-teal-500 ml-0 transform transition duration-200 ease-in-out'
+var contactLinkStyle = ' bg-teal-700 md:leading-relaxed text-xl md:text-2xl text-white rounded-2xl hover:bg-teal-500 ml-0 transform transition duration-200 ease-in-out'
 
 export default function Home() {
   return <div className=" block max-w-5xl mx-auto">
@@ -14,10 +14,10 @@ export default function Home() {
       <div className=" flex-rows items-center justify-center md:w-5/12 pb-8 md:px-10 md:pb-0 ">
         <div className=' flex-columns justify-center mb-5 '>
           <div className=' flex justify-center'>
-            <p className=" leading-relaxed text-3xl text-center text-gray-800 "> Registrations Open for </p>
+            <p className=" md:leading-relaxed text-2xl md:text-3xl text-center text-gray-800 "> Registrations Open for </p>
           </div>
           <div className=' flex justify-center'>
-            <p className=" leading-relaxed text-3xl font-bold text-gray-800 "> 2022-2023 </p>
+            <p className=" md:leading-relaxed text-2xl md:text-3xl font-bold text-gray-800 "> 2022-2023 </p>
           </div>
         </div>
         <div className=' flex justify-center'>
