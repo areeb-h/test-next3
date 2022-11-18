@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 var contactLinkStyle = ' bg-teal-700 text-xl md:text-2xl text-white rounded-2xl hover:bg-teal-500 ml-0 transform transition duration-200 ease-in-out'
 
-var viewMoreButton = ' bg-cyan-700 px-5 py-2 text-md md:text-lg text-white rounded-xl hover:bg-cyan-600 ml-0 flex justify-center items-center transform transition duration-200 ease-in-out'
+var viewMoreButton = ' bg-gray-200 px-5 py-2 text-lg md:text-xl text-gray-900 rounded-xl hover:bg-gray-300 hover:text-black ml-0 flex justify-center items-center transform transition duration-200 ease-in-out'
 
 
 export default function Home() {
@@ -47,9 +47,7 @@ export default function Home() {
         <p className=' text-xl p-5 md:p-10'>We offer a number of programs for students from ages 4 through 12 and above, up to Cambridge IGCSE O’level English, as well as classes for adults.</p>
         <div className='bg-gray-50 flex p-5 md:px-10 justify-between rounded-b-2xl items-center'>
           <h1 className=' text-lg font-bold'> 13 Courses</h1>
-          <Link href='/register' className={viewMoreButton}>
-            <div className=' text-lg'> View All </div>
-          </Link>
+          <Link href='/register' className={viewMoreButton}> View All </Link>
         </div>
       </div>
       <div className=' bg-white rounded-2xl shadow-xl basis-1/2'>
@@ -60,9 +58,7 @@ export default function Home() {
           <p className=' text-xl p-5 md:p-10'>This is a mind developing program where students improve different skills that will help in learning other subjects too. This program is for ages 4 to 14</p>
         <div className='bg-gray-50 flex p-5 md:px-10 justify-between rounded-b-2xl items-center'>
           <h1 className=' text-lg font-bold'> 13 Courses</h1>
-          <Link href='/register' className={viewMoreButton}>
-            <div className=' text-lg'> View All  </div>
-          </Link>
+          <Link href='/register' className={viewMoreButton}> View All </Link>
         </div>
       </div>
     </div>
